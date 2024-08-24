@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
+  </head>
+
+  <style>
+    /* stylelint-disable @stylistic/selector-list-comma-newline-after */
+
+    .blog-header-logo {
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+      font-size: 2.25rem;
+    }
+    .text-body-emphasis {
+      --bs-text-opacity: 1;
+      color: var(--bs-emphasis-color) !important;
+    }
+    .text-decoration-none {
+      text-decoration: none !important;
+    }
+    .template--default blockquote,
+    .template--hero blockquote,
+    .template--supplements blockquote {
+      text-align: center;
+      width: 70%;
+      border-left-width: 0;
+      margin: 2rem auto 3rem;
+    }
+    .template--default blockquote p,
+    .template--hero blockquote p,
+    .template--supplements blockquote p {
+      font-size: 1.5rem;
+      font-style: italic;
+      margin: 0 0 1em;
+    }
+  </style>
+  <body>
+    <div class="container">
+      <header class="border-bottom lh-1 py-3">
+        <div class="row flex-nowrap justify-content-between align-items-center">
+          <div class="col-4 pt-1">
+            <a class="link-secondary" href="#">Subscribe</a>
+          </div>
+          <div class="col-4 text-center">
+            <a class="blog-header-logo text-body-emphasis text-decoration-none" href="#">Black&White</a>
+          </div>
+          <div class="col-4 d-flex justify-content-end align-items-center">
+            <a class="link-secondary" href="#" aria-label="Search">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="mx-3" role="img" viewBox="0 0 24 24">
+                <title>Search</title>
+                <circle cx="10.5" cy="10.5" r="7.5"></circle>
+                <path d="M21 21l-5.2-5.2"></path>
+              </svg>
+            </a>
+            <a class="btn btn-sm btn-outline-secondary" href="#">Sign up</a>
+          </div>
+        </div>
+      </header>
+
+      <div class="nav-scroller py-1 mb-3 border-bottom">
+        <nav class="nav nav-underline justify-content-between">
+          <a class="nav-item nav-link link-body-emphasis active" href="#">World</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">U.S.</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Technology</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Design</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Culture</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Business</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Politics</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Opinion</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Science</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Health</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Style</a>
+          <a class="nav-item nav-link link-body-emphasis" href="#">Travel</a>
+        </nav>
+      </div>
+    </div>
+    <main class="container">
+      <div class="p-4 p-md-5 mb-4 rounded text-body-emphasis bg-body-secondary">
+        <div class="col-lg-6 px-0">
+          <h1 class="display-4 fst-italic">Jailed Pakistan ex-PM Imran Khan applies to be Oxford chancellor</h1>
+          <p class="lead my-3">Chris Patten, the current chancellor of Oxford University, announced in February that he would be stepping down.</p>
+          <p class="lead mb-0"><a href="#" class="text-body-emphasis fw-bold">Continue reading...</a></p>
+        </div>
+        <div class="col-lg-6 px-0">
+          <img src="./imran.webp" width="100%" height="100%" object-fit="cover" />
+        </div>
+      </div>
+
+      <div class="row mb-2">
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-primary-emphasis">World</strong>
+              <h3 class="mb-0">Featured post</h3>
+              <div class="mb-1 text-body-secondary">August 24</div>
+              <p class="card-text mb-auto">US calls on Hamas to agree ceasefire bridging proposal - after it gets Israel's backing.</p>
+              <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                Continue reading
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="./us.webp" width="100%" height="100%" object-fit="cover" />
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+              <strong class="d-inline-block mb-2 text-success-emphasis">Design</strong>
+              <h3 class="mb-0">You Won’t Believe What Car Headlights Have in Store</h3>
+              <div class="mb-1 text-body-secondary">August 24</div>
+              <p class="mb-auto">New technology and a drive toward electrified powertrains have converged to create a flashy new car-lighting landscape. What comes next could be an international light language.</p>
+              <a href="#" class="icon-link gap-1 icon-link-hover stretched-link">
+                Continue reading
+                <svg class="bi"><use xlink:href="#chevron-right"></use></svg>
+              </a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+              <img src="./cars.webp" width="100%" height="100%" object-fit="cover" />
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row g-5">
+        <div class="col-md-8">
+          <h3 class="pb-4 mb-4 fst-italic border-bottom">From the Dawn</h3>
+
+          <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-1">Israel's Gaza invasion - Day 317</h2>
+            <p class="blog-post-meta">August 24, 2024 by <a href="#">AFP</a></p>
+
+            <p>US Secretary of State Antony Blinken has said Israel has agreed to support efforts to vaccinate Gazans for polio after the besieged territory reported its first case of the disease in 25 years, AFP reports. “We’re working with the Israeli government on that, and I believe that we’ll be able to move forward with a plan to do that in the coming weeks. It is urgent. It is vital,” Blinken told reporters in Tel Aviv.</p>
+            <hr />
+
+            <h2>Blockquotes</h2>
+            <p>Colombian President Gustavo Petro announced that his country is “officially” halting coal exports to Israel, Anadolu reports.</p>
+            <blockquote class="blockquote-level-1">
+              <p>“Everyone is exhausted, trapped in a very small patch of land.”</p>
+            </blockquote>
+            <p>Petro said on X, justifying the decision in response to Israel’s ongoing attacks on Gaza. The decree, signed by President Petro along with the ministers of foreign affairs, finance, mines, and trade, will come into effect five days after its publication in the official gazette.</p>
+
+            <h2>Netanyahu’s office doubles down on Israeli control of Philadelphi Corridor</h2>
+            <p>The office of the Israeli prime minister has denied news reports that Israel is open to an international monitoring mission for the Philadelphi Corridor, Al Jazeera reports. “The report suggesting that the idea of deploying an international force along the Philadelphi Corridor is being considered is incorrect,” said Netanyahu’s office in a statement carried by Israeli Army Radio. “Netanyahu insists on the principle that Israel will control the route.”</p>
+            <h3>READ: US administration’s Gaza mediation is a facade</h3>
+            <p>Tamer Qarmout, an assistant professor in public policy at the Doha Institute for Graduate Studies, argues the US administration’s mediation in the Gaza conflict is more about optics than a sincere push for peace. “From the onset of the war, the diplomatic behaviour of the Americans has not been what you would expect from a mediator,” said Qarmout, pointing to Washington’s continued supply of weapons to Israel. “The US has sadly chosen to be partner to Israel during this war.” Speaking to Al Jazeera, Qarmout claimed the administration of US President Joe Biden is simply “pretending” to engage in high-stakes diplomacy to end the war so it has a “ready answer” for pro-Palestine voters who are disillusioned with the Democratic Party ahead of November elections. “In reality, [the administration] is just siding with Israel,” Qarmout said. “I think the behaviour of the US administration shows they’re committed to helping Netanyahu achieve the victory he is looking for”.</p>
+
+            <blockquote class="blockquote">
+              <p>“Everyone is exhausted, trapped in a very small patch of land.”</p>
+            </blockquote>
+          </article>
+
+          <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-1">The Gaza mothers separated from their newborns by conflict</h2>
+            <p class="blog-post-meta">August 24, 2024 by <a href="#">AFP</a></p>
+
+            <p>As their first birthday approaches, the triplets Gaza-native Hanane Bayouk gave birth to in Jerusalem before the onslaught have seen their mother just once, and she fears she will “die without them”, AFP reports. The 26-year-old had to return to the Palestinian territory alone after giving birth to Najoua, Nour and Najmeh on August 24, 2023, because her Israeli travel permit had expired. Bayouk received a permit to exit Gaza and give birth in annexed east Jerusalem’s Al-Maqased hospital after seven years of painful IVF procedures. She caught a glimpse of her children in their incubators, “barely an hour and a half”, before driving back to Gaza after her permit “expired and the hospital told me to leave”. Bayouk was supposed to return in early October after her daughters had spent several weeks in incubators, which were in short supply in hospitals in Gaza even before the Israel-Hamas conflict erupted last October.</p>
+            <blockquote class="blockquote">
+              <p>“Now is the time to get a hostage deal and a ceasefire deal done,” she said to cheers.</p>
+            </blockquote>
+            <p>And let me be clear, I will always stand up for Israel’s right to defend itself and I will always ensure Israel has the ability to defend itself.” “What has happened in Gaza over the past 10 months is devastating. So many innocent lives lost, desperate hungry people fleeing for safety over and over again. The scale of suffering is heartbreaking,” she said.</p>
+            <h3>Community Voting Results</h3>
+            <p>In our recent poll, the following votes were recorded:</p>
+            <table class="table">
+              <thead>
+                <tr>
+                  <th>Name</th>
+                  <th>Upvotes</th>
+                  <th>Downvotes</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Babar</td>
+                  <td>15</td>
+                  <td>8</td>
+                </tr>
+                <tr>
+                  <td>Azam</td>
+                  <td>9</td>
+                  <td>12</td>
+                </tr>
+                <tr>
+                  <td>Fareed</td>
+                  <td>11</td>
+                  <td>14</td>
+                </tr>
+              </tbody>
+              <tfoot>
+                <tr>
+                  <td>Totals</td>
+                  <td>35</td>
+                  <td>34</td>
+                </tr>
+              </tfoot>
+            </table>
+
+            <p>The results highlight a close competition, with Babar receiving the most upvotes, while Fareed had a slightly higher number of downvotes. Azam's votes indicate a more divided opinion among the participants.</p>
+          </article>
+
+          <article class="blog-post">
+            <h2 class="display-5 link-body-emphasis mb-1">Exciting Update: New Capabilities Unveiled</h2>
+            <p class="blog-post-meta">August 24, 2024 by <a href="#">Taylor</a></p>
+
+            <p>We're thrilled to share that a major update is now live! This latest release introduces several powerful new capabilities, designed to elevate your user experience. Here’s a snapshot of what’s new:</p>
+            <ul>
+              <li><strong>Simplified User Interface:</strong> Navigate effortlessly with our newly refined design that prioritizes ease of use.</li>
+              <li><strong>Data Visualization:</strong> Explore your data with our improved visual tools, offering deeper insights at a glance.</li>
+              <li><strong>Personalized Alerts</strong> Stay informed with notifications tailored to your preferences, so you never miss what’s important.</li>
+            </ul>
+            <p>This update is just the beginning of what’s to come. We’re committed to continuously enhancing our platform to better serve your needs. Keep an eye out for more exciting developments in the near future!</p>
+          </article>
+
+          <nav class="blog-pagination" aria-label="Pagination">
+            <a class="btn btn-outline-primary rounded-pill" href="#">Older</a>
+            <a class="btn btn-outline-secondary rounded-pill disabled" aria-disabled="true">Newer</a>
+          </nav>
+        </div>
+
+        <div class="col-md-4">
+          <div class="position-sticky" style="top: 2rem">
+            <div class="p-4 mb-3 bg-body-tertiary rounded">
+              <h4 class="fst-italic">About</h4>
+              <p class="mb-0">Black and White unfolds the bitter and dark truths of the modern reality no matter what</p>
+            </div>
+
+            <div>
+              <h4 class="fst-italic">Recent posts</h4>
+              <ul class="list-unstyled">
+                <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <!-- <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> -->
+                    <img src="./media.webp" width="100%" height="96" />
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">Media & Entertainment</h6>
+                      <small class="text-body-secondary">August 24, 2024</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <img src="./sports.webp" width="100%" height="96" />
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">Sports & Matches</h6>
+                      <small class="text-body-secondary">August 24, 2024</small>
+                    </div>
+                  </a>
+                </li>
+                <li>
+                  <a class="d-flex flex-column flex-lg-row gap-3 align-items-start align-items-lg-center py-3 link-body-emphasis text-decoration-none border-top" href="#">
+                    <!-- <svg class="bd-placeholder-img" width="100%" height="96" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"></rect></svg> -->
+                    <img src="./seo.jpeg " width="100%" height="96" />
+                    <div class="col-lg-8">
+                      <h6 class="mb-0">Live Blogging and SEO: Using Real-Time Updates to Improve Website Rankings</h6>
+                      <small class="text-body-secondary">August 24, 2024</small>
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="p-4">
+              <h4 class="fst-italic">Archives</h4>
+              <ol class="list-unstyled mb-0">
+                <li><a href="#">March 2024</a></li>
+                <li><a href="#">February 2024</a></li>
+                <li><a href="#">January 2024</a></li>
+                <li><a href="#">December 2023</a></li>
+                <li><a href="#">November 2023</a></li>
+                <li><a href="#">October 2023</a></li>
+                <li><a href="#">September 2023</a></li>
+                <li><a href="#">August 2023</a></li>
+                <li><a href="#">July 2023</a></li>
+                <li><a href="#">June 2023</a></li>
+                <li><a href="#">May 2023</a></li>
+                <li><a href="#">April 2023</a></li>
+              </ol>
+            </div>
+
+            <div class="p-4">
+              <h4 class="fst-italic">Elsewhere</h4>
+              <ol class="list-unstyled">
+                <li><a href="#">GitHub</a></li>
+                <li><a href="#">Twitter</a></li>
+                <li><a href="#">Facebook</a></li>
+              </ol>
+            </div>
+          </div>
+        </div>
+      </div>
+      <footer class="py-5 text-center text-body-secondary bg-body-tertiary">
+        <p>Blog by <a href="https://twitter.com/mdo">@RAK</a>.</p>
+        <p class="mb-0">
+          <a href="#">Back to top</a>
+        </p>
+      </footer>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
