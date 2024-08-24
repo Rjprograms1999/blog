@@ -8,82 +8,97 @@
   </head>
 
   <style>
-       /* stylelint-disable @stylistic/selector-list-comma-newline-after */
+    /* stylelint-disable @stylistic/selector-list-comma-newline-after */
 
+    .text-center {
+      text-align: center !important;
+    }
+    .blog-header-logo:hover {
+      text-decoration: none;
+    }
 
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+    }
 
+    .flex-auto {
+      flex: 0 0 auto;
+    }
 
+    .h-250 {
+      height: 250px;
+    }
 
-         .text-center {
-           text-align: center !important;
-         }
-         .blog-header-logo:hover {
-           text-decoration: none;
-         }
-       }
-       h1,
-       h2,
-       h3,
-       h4,
-       h5,
-       h6 {
-         font-family: "Playfair Display", Georgia, "Times New Roman", serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
-       }
+    /* Pagination */
+    .blog-pagination {
+      margin-bottom: 4rem;
+    }
 
-       .flex-auto {
-         flex: 0 0 auto;
-       }
+    /*
+        * Blog posts
+        */
+    .blog-post {
+      margin-bottom: 4rem;
+    }
+    .blog-post-meta {
+      margin-bottom: 1.25rem;
+      color: #727272;
+    }
 
-       .h-250 {
-         height: 250px;
-       }
-
-       /* Pagination */
-       .blog-pagination {
-         margin-bottom: 4rem;
-       }
-
-       /*
-    * Blog posts
-    */
-       .blog-post {
-         margin-bottom: 4rem;
-       }
-       .blog-post-meta {
-         margin-bottom: 1.25rem;
-         color: #727272;
-       }
-
-       .col-4 {
-         flex: 0 0 auto;
-         width: 33.33333333%;
-       }
-       .blog-header-logo {
-         font-family: "Playfair Display", Georgia, "Times New Roman", serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
-         font-size: 2.5rem;
-       }
-       .text-body-emphasis {
-         --bs-text-opacity: 1;
-         color: var(--bs-emphasis-color) !important;
-       }
-       .text-decoration-none {
-         text-decoration: none !important;
-       }
-       .template--default blockquote,
-       .template--hero blockquote,
-       .template--supplements blockquote {
-         text-align: center;
-         width: 70%;
-         border-left-width: 0;
-         margin: 2rem auto 3rem;
-       }
-       .template--default blockquote p,
-       .template--hero blockquote p,
-       .template--supplements blockquote p {
-         font-size: 1.5rem;
-         font-style: italic;
-         margin: 0 0 1em;
-       }
+    .col-4 {
+      flex: 0 0 auto;
+      width: 33.33333333%;
+    }
+    .blog-header-logo {
+      font-family: "Playfair Display", Georgia, "Times New Roman", serif /*rtl:Amiri, Georgia, "Times New Roman", serif*/;
+      font-size: 2.5rem;
+    }
+    .text-body-emphasis {
+      --bs-text-opacity: 1;
+      color: var(--bs-emphasis-color) !important;
+    }
+    .text-decoration-none {
+      text-decoration: none !important;
+    }
+    .template--default blockquote,
+    .template--hero blockquote,
+    .template--supplements blockquote {
+      text-align: center;
+      width: 70%;
+      border-left-width: 0;
+      margin: 2rem auto 3rem;
+    }
+    .template--default blockquote p,
+    .template--hero blockquote p,
+    .template--supplements blockquote p {
+      font-size: 1.5rem;
+      font-style: italic;
+      margin: 0 0 1em;
+    }
+    .nav-scroller .nav {
+      display: flex;
+      flex-wrap: nowrap;
+      padding-bottom: 1rem;
+      margin-top: -1px;
+      overflow-x: auto;
+      text-align: center;
+      white-space: nowrap;
+      -webkit-overflow-scrolling: touch;
+    }
+    .nav-scroller {
+      position: relative;
+      z-index: 2;
+      height: 2.75rem;
+      overflow-y: hidden;
+    }
+    .justify-content-between {
+      justify-content: space-between !important;
+    }
   </style>
   <body>
     <div class="container">
